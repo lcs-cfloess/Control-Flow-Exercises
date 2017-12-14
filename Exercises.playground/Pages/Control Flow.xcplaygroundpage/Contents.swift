@@ -5,25 +5,25 @@
  ## Learning Goals - Programming
  
  * Goal 5
-    * *Knowledge*
-        * I can write concise statements using Boolean operators or pattern matching to check for multiple conditions.
+ * *Knowledge*
+ * I can write concise statements using Boolean operators or pattern matching to check for multiple conditions.
  * Goal 6
-    * *Knowledge*
-        * I can use comparison operators and arithmetic operators and understand operator precedence (order of operations).
+ * *Knowledge*
+ * I can use comparison operators and arithmetic operators and understand operator precedence (order of operations).
  
  * Goal 8
-    * *Knowledge*
-        * I can use sequence, selection, and repetition control structures to write programs that accept user input, perform processing tasks, and produce output, with user-friendly interfaces.
+ * *Knowledge*
+ * I can use sequence, selection, and repetition control structures to write programs that accept user input, perform processing tasks, and produce output, with user-friendly interfaces.
  
  ## Learning Goals - Software Development
  
  * Goal 8
-    * *Communication*
-        * I can write human-readable programs (naming, indenting) with appropriate documentation (comments).
+ * *Communication*
+ * I can write human-readable programs (naming, indenting) with appropriate documentation (comments).
  
  * Goal 9
-    * *Communication*
-        * I can effectively use the file manager of my operating system (Finder) and source control tools (git, GitHub) to organize and back up my work.
+ * *Communication*
+ * I can effectively use the file manager of my operating system (Finder) and source control tools (git, GitHub) to organize and back up my work.
  
  ### Question 1
  
@@ -32,13 +32,16 @@
  You've also noticed that the weather reporter's comments are very predictable.
  
  A variable `temperature` has been created below with a value of 0.
-
+ 
  Write an if statement that prints "Brr, grab your winter jacket!" when the temperature is equal to 0.
  */
-var temperature = 0
 
 // Answer Question 1 below
-
+var temperature = 0
+if temperature  == 0{
+    print("Brr, grab your winter jacket")
+    
+}
 
 /*:
  
@@ -49,8 +52,14 @@ var temperature = 0
  Write an if-else if statement that prints "Brr, grab your winter jacket!" if `temperature` is equal to 0, and temperature is anything less than 0, prints "Don't leave your water glass outside!".
  */
 temperature = -20
-
 // Answer Question 2 below
+
+if temperature  == 0{
+    print("Brr, grab your winter jacket")
+    
+}  else if temperature  <= 0  {
+    print("Don't leave your water glass outside!")
+}
 
 
 /*:
