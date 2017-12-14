@@ -78,7 +78,14 @@ if temperature  == 0{
 temperature = 15
 
 // Answer Question 3 below
-
+if temperature  == 0{
+    print("Brr, grab your winter jacket")
+    
+}  else if temperature  <= 0  {
+    print("Don't leave your water glass outside!")
+} else {
+print("It coul be shorts weather but you might be a bit chilly")
+}
 /*:
  
  ### Question 4
@@ -97,6 +104,7 @@ let alwaysGetsAttentionBySayingGentsAndLadies = true
 let teachesOutdoorEd = true
 
 // Answer Question 4 below
+
 
 
 /*:
